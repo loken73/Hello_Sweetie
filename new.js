@@ -15,6 +15,8 @@ $(document).ready(function() {
             var phoneNumber = list.find("li")[0];
             
             list.append(phoneNumber);
+
+            
     
         }
     
