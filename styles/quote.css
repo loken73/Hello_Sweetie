@@ -16,3 +16,10 @@
     background-color: #FFFFEF;
     margin: 20px 0;
 }
+
+.btn-sweetie {
+    background-color: #B8F1F2;
+    color: #00004C;
+    box-shadow: 2px 2px 2px black;
+    font-weight: 700;
+}
