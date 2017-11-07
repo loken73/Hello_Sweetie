@@ -1,0 +1,16 @@
+.quote-title {
+    padding: 30px 0;
+    font-size: 34px;
+    text-align: center;
+}
+
+.quote-subtitle {
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.short-input {
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #ccc;
+}

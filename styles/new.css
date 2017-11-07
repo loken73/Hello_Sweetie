@@ -1,0 +1,344 @@
+.bodyshade {
+    opacity:    0.5; 
+    background: #000; 
+    width:      100%;
+    height:     100%;
+    z-index:    3;
+    top:        0; 
+    left:       0; 
+    position:   fixed; 
+    display: none;
+}
+
+.navbar1 {
+    width: 100%;
+    padding-top: 10px;
+    background-color: #B8F1F2;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.navbar-container {
+    width: 98%;
+    margin: auto;
+}
+
+#container {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.logo {
+    display: inline;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin: 5px 0 0 60px;
+}
+
+.navbar-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 50px 0;
+}
+
+nav#nav-menu {
+    padding: 0;
+    display: inline;
+}
+
+.navbar-container ul li {
+    display: inline;
+    text-decoration: none;
+}
+
+.navbar-container ul li a {
+    color: #00004C;
+    margin-right: 5px;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.navbar-container ul li a:hover {
+    text-decoration: none;
+    color: #B8F1F2;
+    background-color: #FFFFEF;
+}
+
+#sidenav {
+    background-color: #FFFFEF;
+    z-index: 4;
+    height: 100%;
+    width: 0;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#sidenav ul {
+    margin-top: 90px;
+    padding-left: 0;
+}
+
+#sidenav li {
+    display: block;
+    padding: 10px;
+    width: 100%;
+}
+
+#sidenav a {
+    color: #B8F1F2;
+    font-size: 18px;
+    margin: 0 30%;
+}
+
+#sidenav li:hover {  
+    background-color: #dbdbd1;
+}
+
+#sidenav a:hover {
+    text-decoration: none;
+}
+
+.hamburger {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: inline;
+    position: absolute;
+    z-index: 6;
+    margin-top: 20px;
+    display: none;
+}
+
+.line {
+    height: 4px;
+    width: 75%;
+    background-color: #FFFFEF;
+    border-radius: 5px;
+    position: absolute;
+    left: 8px;
+    transition: all ease 0.3s;
+}
+
+.line1 {
+    top: 20%;
+}
+
+.line2 {
+    top: 48%;
+}
+
+.line3 {
+    top: 75%;
+}
+
+.cancel {
+    position: fixed;
+}
+
+.cancel .line {
+    background-color: #B8F1F2;
+}
+
+.cancel .line1 {
+    transform: rotate(45deg);
+    top: 50%;
+    
+}
+
+.cancel .line2, .cancel .line3 {
+    transform: rotate(135deg);
+    top: 50%;
+}
+
+.d-block {
+    height: 550px;
+    width: 100%;
+}
+
+.cupcake {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.cupcake img {
+    width: 85%;
+}
+
+.sweeties-samples {
+    text-align: center;
+    padding: 40px 0 30px 0;
+    font-size: 60px;
+}
+
+.cupcake .sweet-description {
+    background-color: #FFE4F1;
+    text-align: center;
+    height: 0;
+    width: 87%;
+    z-index: 2;
+    position: absolute;
+}
+
+.sweet-description span {
+    top: 40%;
+    position: relative;
+    opacity: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.sweet-title {
+    font-size: 38px;
+    padding: 10px 0;
+}
+
+#quote-request {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/flour-rolling-pin.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
+    padding: 0 1em;
+    height: 500px;
+    color: #FFFFEF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+#quote-request div {
+    width: 100%;
+    text-align: center;
+}
+
+#quote-request .text-wrapper {
+    margin: 150px 0 0 0;
+}
+
+#quote-request div.button-wrapper {
+    margin-top: 15px;
+}
+
+#quote-request button {
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #F5B5B5;
+    color: #FFFFEF;
+    border: none;
+    margin-top: 10px;
+    /*border: solid 1px #B8F1F2;*/
+    box-shadow: 4px 4px 4px black;
+}
+
+#quote-request button:hover {
+    border: solid 2px #B8F1F2;
+}
+
+#footer {
+    background-color: #F5B5B5;
+    /*background-color: #D4D5D6;*/
+    padding: 30px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #FFFFEF;
+    margin-top: 30px;
+}
+
+#footer p {
+    letter-spacing: 2px;
+}
+
+#footer .icons {
+    text-align: center;
+}
+
+.icons i {
+    padding: 0 15px;
+    font-size: 32px;
+}
+
+#footer a{
+    color: #FFFFEF;
+}
+
+#footer a:hover {
+    color: #00004C;
+    text-decoration: none;
+}
+
+#footer a:visited, #footer a:active {
+    color: #FFFFEF;
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar-container ul{
+        display: none;
+    }
+
+    div.logo {
+        padding-bottom: 20px;
+    }
+
+    .hamburger {
+        margin-left: 20px;
+    }
+
+    #logo {
+        flex: 0 0 92%;
+        max-width: 92%;
+    }
+
+    #nav-menu {
+        flex: 0 0 8%;
+        max-width: 8%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    #footer #email {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 832px) {
+
+    .d-block { 
+        height: 400px;
+    }
+
+    #email {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+
+    .d-block {
+        height: 350px;
+    }
+
+    div.cupcake.extra {
+        display: none;
+    }
+
+}
+
+
