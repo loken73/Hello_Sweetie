@@ -171,9 +171,8 @@ li.site-links a:hover {
 }
 
 @media screen and (max-width: 500px) {
-    .logo img {
-        width: 80px;
-        height: 80px;
+    .logo-a img {
+        width: 200px;
     }
 
     .banner .row a {
