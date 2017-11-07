@@ -175,6 +175,14 @@ li.site-links a:hover {
         width: 200px;
     }
 
+    .container {
+        padding: 0;
+    }
+
+    .banner {
+        padding: 10px 0;
+    }
+
     .banner .row a {
         font-size: 15px;
     }
@@ -185,6 +193,10 @@ li.site-links a:hover {
 
     #footer .icons li {
         padding: 0 10px;
+    }
+
+    .contact-info-complete ul {
+        padding: 0;
     }
 
     #footer .contact-info-complete li {
