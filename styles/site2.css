@@ -195,6 +195,10 @@ li.site-links a:hover {
         padding: 0 10px;
     }
 
+    .contact-info {
+        padding: 0;
+    }
+
     .contact-info-complete ul {
         padding: 0;
     }
