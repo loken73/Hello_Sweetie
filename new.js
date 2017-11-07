@@ -92,5 +92,7 @@ $(document).ready(function() {
         $(this).find(".sweet-title").stop().fadeIn(600);
 
     });
+
+    $(".hamburger").remove();
     
  });
