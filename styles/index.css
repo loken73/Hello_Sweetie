@@ -1,0 +1,88 @@
+.cupcake {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.cupcake img {
+    width: 85%;
+}
+
+.sweeties-samples {
+    text-align: center;
+    padding: 40px 0 30px 0;
+    font-size: 60px;
+}
+
+.cupcake .sweet-description {
+    background-color: #FFE4F1;
+    text-align: center;
+    height: 0;
+    width: 87%;
+    z-index: 2;
+    position: absolute;
+}
+
+.sweet-description span {
+    top: 40%;
+    position: relative;
+    opacity: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.sweet-title {
+    font-size: 38px;
+    padding: 10px 0;
+}
+
+#quote-request {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://loken73.github.io/Hello_Sweetie/images/flour-rolling-pin.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
+    padding: 0 1em;
+    height: 500px;
+    color: #FFFFEF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+#quote-request div {
+    width: 100%;
+    text-align: center;
+}
+
+#quote-request .text-wrapper {
+    margin: 150px 0 0 0;
+}
+
+#quote-request div.button-wrapper {
+    margin-top: 15px;
+}
+
+#quote-request button {
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #F5B5B5;
+    color: #FFFFEF;
+    border: none;
+    margin-top: 10px;
+    /*border: solid 1px #B8F1F2;*/
+    box-shadow: 4px 4px 4px black;
+}
+
+#quote-request button:hover {
+    border: solid 2px #B8F1F2;
+}
+
+@media screen and (max-width: 550px) {
+    div.cupcake.extra {
+        display: none;
+    }
+}

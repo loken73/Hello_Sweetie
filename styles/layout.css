@@ -9,6 +9,7 @@
 
 div#body {
     font-family: 'Raleway', sans-serif;
+    font-family: 'Niconne', cursive;
     /*font-family: 'Tangerine', cursive;*/
     margin: 0;
     border: none;
@@ -17,13 +18,51 @@ div#body {
     color: #00004C;
 }
 
-
 .logo-a img {
     width: 320px;
     padding: 20px 0;
     display: block;
     margin: 0 auto;
     z-index: 10;
+}
+
+#sidenav {
+    background-color: #FFFFEF;
+    z-index: 4;
+    height: 100%;
+    width: 0;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#sidenav ul {
+    margin-top: 90px;
+    padding-left: 0;
+}
+
+#sidenav li {
+    display: block;
+    padding: 10px;
+    width: 100%;
+}
+
+#sidenav a {
+    color: #B8F1F2;
+    font-size: 18px;
+    margin: 0 30%;
+}
+
+#sidenav li:hover {  
+    background-color: #dbdbd1;
+}
+
+#sidenav a:hover {
+    text-decoration: none;
 }
 
 .hamburger {
@@ -36,39 +75,51 @@ div#body {
     right: 10px;
 }
 
-/*.social-media-links {
-    text-align: right;
-    height: 100%;
+.line {
+    height: 4px;
+    width: 75%;
+    background-color: #FFFFEF;
+    border-radius: 5px;
+    position: absolute;
+    left: 8px;
+    transition: all ease 0.3s;
 }
 
-div.social-media-links ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    height: 100%;
+.line1 {
+    top: 20%;
 }
 
-.social-media-links li {
-    padding: 30px 0;
+.line2 {
+    top: 48%;
 }
 
-.social-media-links a {
-    color: #B8F1F2;
+.line3 {
+    top: 75%;
 }
 
-.social-media-links a:hover {
-    text-decoration: none;
-    color: #B8F1F2;
+.cancel {
+    position: fixed;
 }
 
-.social-media-links span {
-    font-size: 25px;
-    margin-right: 1em;
+.cancel .line {
+    background-color: #B8F1F2;
 }
 
-.social-media-links i {
-    font-size: 40px;
-}*/
+.cancel .line1 {
+    transform: rotate(45deg);
+    top: 50%;
+    
+}
+
+.cancel .line2, .cancel .line3 {
+    transform: rotate(135deg);
+    top: 50%;
+}
+
+.d-block {
+    height: 550px;
+    width: 100%;
+}
 
 .banner {
     background-color: #B8F1F2;
@@ -100,6 +151,46 @@ li.site-links a:hover {
     color: #FFFFEF;
 }
 
+.banner {
+    background-color: #B8F1F2;
+    background-color: #F5B5B5;
+    font-size: 1.5em;
+    padding: 25px 0;
+    width: 100%;
+}
+
+.banner ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    display: inherit;
+}
+
+.banner ul li.site-links {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+li.site-links a:hover {
+    color: #B8F1F2;
+    text-decoration: none;
+}
+
+.banner ul li a {
+    color: #FFFFEF;
+}
+
+#footer {
+    background-color: #F5B5B5;
+    /*background-color: #D4D5D6;*/
+    padding: 30px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #FFFFEF;
+    margin-top: 30px;
+}
+
 #footer .banner {
     padding: 10px 0;
 }
@@ -115,11 +206,12 @@ li.site-links a:hover {
 .icons li {
     display: inline;
     text-align: center;
-    padding: 0 40px;
+    /*padding: 0 40px;*/
 }
 
 .icons .row i {
     font-size: 40px;
+    color: #FFFFEF;
 }
 
 .icons i:hover {
@@ -133,6 +225,10 @@ li.site-links a:hover {
 
 .contact-info-complete ul {
     list-style: none;
+}
+
+.contact-info-complete a {
+    color: #FFFFEF;
 }
 
 .boring-stuff {
@@ -192,11 +288,15 @@ li.site-links a:hover {
     }
 
     #footer .icons {
-        padding-bottom: 0;
+        padding: 0;
     }
 
-    #footer .icons li {
-        padding: 0 10px;
+    .icons ul {
+        padding: 0 20px;
+    }
+
+    .icons .row i {
+        width: 32.3%;
     }
 
     .contact-info {
