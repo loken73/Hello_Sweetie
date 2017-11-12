@@ -94,4 +94,8 @@
         font-size: 26px;
     }
 
+    .cupcake .sweet-description {
+        top: -2px;
+    }
+
 }
